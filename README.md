@@ -18,5 +18,5 @@ python main.py --test_only --load_name 'your_path/model_8.pth'
 **The pre-trained models and test dataset can be dowoload at:**
 
 - [8 x SR]()
-- [16xSR]()
+- [16 x SR]()
 - [Test Dataset]()
