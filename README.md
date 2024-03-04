@@ -7,7 +7,7 @@
 **Training with the example option:**
 
 ```bash
-CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nnodes 1 --nproc_per_node=4 --rdzv_backend=c10d --rdzv_endpoint=localhost:11342 main.py --scale 8 --model_name Net --num_gpus 4 --embed_dim 64 --opt Adam --file_name 'File' --dataset NIR --batch_size 8 --patch_size 256 --loss '1*L1'
+CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nnodes 1 --nproc_per_node=4 --rdzv_backend=c10d --rdzv_endpoint=localhost:11342 main.py --scale 8/16 --model_name Net --num_gpus 4 --embed_dim 64 --opt Adam --file_name 'File' --dataset NIR --batch_size 8 --patch_size 256 --loss '1*L1'
 ```
 **Tesing with the example option:**
 
