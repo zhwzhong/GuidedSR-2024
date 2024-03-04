@@ -1,4 +1,5 @@
 # GuidedSR-2024
+<<<<<<< HEAD
 ## Environment
 - [PyTorch >= 1.10](https://pytorch.org/)
 
@@ -20,3 +21,8 @@ python main.py --test_only --load_name 'your_path/model_8.pth'
 - [8 x SR]()
 - [16xSR]()
 - [Test Dataset]()
+=======
+
+## Train:
+
+>>>>>>> 38cbbfca48f8a761b9998180874b199e85de72b8
