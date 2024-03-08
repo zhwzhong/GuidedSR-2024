@@ -17,6 +17,6 @@ python main.py --test_only --load_name 'your_path/model_8/16.pth' --scale 8/16
 
 **The pre-trained models and test dataset can be dowoload at:**
 
-- [8 x SR]()
-- [16 x SR]()
+- [8 x SR](https://pan.quark.cn/s/83e39ebeccbd)
+- [16 x SR](https://pan.quark.cn/s/83e39ebeccbd)
 - [Test Dataset]()
