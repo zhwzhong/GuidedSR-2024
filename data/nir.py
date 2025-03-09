@@ -16,15 +16,6 @@ from data import augment
 from torch.utils.data import Dataset
 from utils.image_resize import imresize
 
-
-data_dict = {
-    'A': 'gdsr_train.h5',
-    'B': 'gdsr_all_train.h5',
-    'C': 'gdsr_ms2.h5',
-    'D': 'gdsr_all_d.h5'
-}
-
-
 def get_array(x, cached):
     return np.array(x) if cached else x
 
